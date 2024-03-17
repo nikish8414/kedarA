@@ -2,7 +2,7 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { AnimatePresence, motion, useCycle } from "framer-motion";
 
 const links = [
-  { name: "HOME", to: "#Home", id: 1 ,},
+  { name: "HOME", to: "#Home", id: 1 },
   { name: "ABOUT", to: "#About", id: 2 },
   { name: "SERVICES", to: "#Services", id: 3 },
   { name: "CONTACT", to: "#Contact", id: 4 },
@@ -37,14 +37,13 @@ export default function Nav() {
     <nav className="flex justify-between w-full content-start font-sans sticky top-0 flex border bg-white">
       {/* Logo or company Name */}
       <div className="inline-flex p-30 text-xl font-semibold lg:text-2xl lg:pl-9">
-        
-          
-            <img
-              className="object-cover h-20 w-40 bg-white "
-              src="/logo.png"
-              alt="logo"
-            />
-       
+        <img
+          className="object-cover h-20 w-40 bg-white "
+          src="/logo.svg"
+          alt="triangle with all three sides equal"
+          height="180px"
+          width="100px"
+        />
       </div>
 
       {/* The Side Bar Menu for screens smaller than 'Large' */}
