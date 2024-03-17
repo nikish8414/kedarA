@@ -28,17 +28,17 @@ export default function About() {
               <br></br>
               <h2 className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 dark:text-white leading-9"></h2>
               <div className="font-normal text-base leading-6 text-gray-600 dark:text-gray-200 mt-6">
-              <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800 dark:text-white">
-                Our Mission
-              </h2>
-              <div className="font-normal text-base leading-6 text-gray-600 dark:text-gray-200 mt-6 w-full lg:w-10/12 xl:w-9/12">
-                Our mission at Kedar Realty is to exceed the expectations of our
-                clients by delivering superior real estate services
-                characterized by excellence, integrity, and innovation. We are
-                committed to providing expert guidance, comprehensive market
-                knowledge, and exceptional customer service to help our clients
-                achieve their real estate goals.
-              </div>
+                <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800 dark:text-white">
+                  Our Mission
+                </h2>
+                <div className="font-normal text-base leading-6 text-gray-600 dark:text-gray-200 mt-6 w-full lg:w-10/12 xl:w-9/12">
+                  Our mission at Kedar Realty is to exceed the expectations of
+                  our clients by delivering superior real estate services
+                  characterized by excellence, integrity, and innovation. We are
+                  committed to providing expert guidance, comprehensive market
+                  knowledge, and exceptional customer service to help our
+                  clients achieve their real estate goals.
+                </div>
               </div>
             </div>
             <div className="w-full lg:w-6/12">
@@ -82,22 +82,9 @@ export default function About() {
             </div>
             <hr className="z-10 absolute top-2/4 w-full bg-gray-200" />
           </div>
-          <div className="sm:hidden grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
-            <div>
-              <div className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 dark:text-white mt-6">
-                400k User
-              </div>
-              <div className="font-normal text-base leading-6 text-gray-600 dark:text-gray-200 mt-6">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-              </div>
-            </div>
-          </div>
 
           <div className="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
             <div className="w-full lg:w-6/12">
-              
-
               {/* <div className="font-normal text-base leading-6 text-gray-600 dark:text-gray-200 w-full lg:w-10/12 xl:w-9/12 mt-10">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.In the first place we have granted to God, and by this our present charter concompanyed for us and our heirs forever that the English Church shall be free, and shall have her rights entire, and her liberties inviolate; and we will that it be thus observed; which is apparent from</div> */}
             </div>
             <div className="w-full lg:w-6/12">
