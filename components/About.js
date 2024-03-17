@@ -28,12 +28,17 @@ export default function About() {
               <br></br>
               <h2 className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 dark:text-white leading-9"></h2>
               <div className="font-normal text-base leading-6 text-gray-600 dark:text-gray-200 mt-6">
-                At Kedar Realty, we pride ourselves on being more than just a
-                real estate company. We are your partners in finding the perfect
-                place to call home or in making your property dreams a reality.
-                With a commitment to integrity, innovation, and personalized
-                service, we strive to exceed your expectations at every step of
-                your real estate journey.
+              <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800 dark:text-white">
+                Our Mission
+              </h2>
+              <div className="font-normal text-base leading-6 text-gray-600 dark:text-gray-200 mt-6 w-full lg:w-10/12 xl:w-9/12">
+                Our mission at Kedar Realty is to exceed the expectations of our
+                clients by delivering superior real estate services
+                characterized by excellence, integrity, and innovation. We are
+                committed to providing expert guidance, comprehensive market
+                knowledge, and exceptional customer service to help our clients
+                achieve their real estate goals.
+              </div>
               </div>
             </div>
             <div className="w-full lg:w-6/12">
@@ -91,17 +96,7 @@ export default function About() {
 
           <div className="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
             <div className="w-full lg:w-6/12">
-              <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800 dark:text-white">
-                Our Mission
-              </h2>
-              <div className="font-normal text-base leading-6 text-gray-600 dark:text-gray-200 mt-6 w-full lg:w-10/12 xl:w-9/12">
-                Our mission at Kedar Realty is to exceed the expectations of our
-                clients by delivering superior real estate services
-                characterized by excellence, integrity, and innovation. We are
-                committed to providing expert guidance, comprehensive market
-                knowledge, and exceptional customer service to help our clients
-                achieve their real estate goals.
-              </div>
+              
 
               {/* <div className="font-normal text-base leading-6 text-gray-600 dark:text-gray-200 w-full lg:w-10/12 xl:w-9/12 mt-10">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.In the first place we have granted to God, and by this our present charter concompanyed for us and our heirs forever that the English Church shall be free, and shall have her rights entire, and her liberties inviolate; and we will that it be thus observed; which is apparent from</div> */}
             </div>
@@ -109,14 +104,14 @@ export default function About() {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 lg:gap-12 gap-10">
                 {/* <!-- Team Card --> */}
                 <div className="flex p-4 shadow-md">
-                  <div className="mr-6">
+                  {/* <div className="mr-6">
                     <img
                       className="mr-6"
                       src="https://tuk-cdn.s3.amazonaws.com/can-uploader/about-us-3-svg4.svg"
                       alt="team card"
                     />
-                  </div>
-                  <div className="">
+                  </div> */}
+                  {/* <div className="">
                     <div className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 dark:text-white">
                       Team
                     </div>
@@ -125,11 +120,11 @@ export default function About() {
                       distracted by the readable content of a page when looking
                       at its layout.
                     </div>
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* <!-- Board Card --> */}
-                <div className="flex p-4 shadow-md">
+                {/* <div className="flex p-4 shadow-md">
                   <div className="mr-6">
                     <img
                       src="https://tuk-cdn.s3.amazonaws.com/can-uploader/about-us-3-svg5.svg"
@@ -146,10 +141,10 @@ export default function About() {
                       at its layout.
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 {/* <!-- Press Card --> */}
-                <div className="flex p-4 shadow-md">
+                {/* <div className="flex p-4 shadow-md">
                   <div className="mr-6">
                     <img
                       src="https://tuk-cdn.s3.amazonaws.com/can-uploader/about-us-3-svg6.svg"
@@ -166,7 +161,7 @@ export default function About() {
                       at its layout.
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
