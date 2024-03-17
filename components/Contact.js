@@ -9,53 +9,53 @@ export default function Contact() {
       <FadeUp>
         <section className="bg-white dark:bg-slate-800" id="contact">
           <br></br>
-          <br></br>
-          <br></br>
+
           <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20 ">
             <div className="mb-4">
               <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
-                
                 <h2 className="font-heading mb-4 font-bold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
                   Get in Touch
                 </h2>
-                
+                <p>
+                  Ready to embark on your real estate journey? Contact Kedar
+                  Realty today to discover the difference our personalized
+                  approach can make. Whether you're buying, selling, or
+                  investing, we're here to turn your real estate dreams into
+                  reality. Feel free to customize this description further to
+                  better fit the specific services, values, and goals of Kedar
+                  Realty.
+                </p>
               </div>
             </div>
             <div className="flex items-stretch justify-center">
               <div className="grid md:grid-cols-2">
-                <div className="h-full pr-6">
+                <div className="h-full pr-10">
                   <p className="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400"></p>
                   <ul className="mb-6 md:mb-0">
                     <li className="flex">
-                      <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          className="h-6 w-6"
-                        >
-                          <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
-                          <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
-                        </svg>
+                    <Link href="https://maps.app.goo.gl/k83sn5S8kZ6MME748">
+                      <div className="flex h-10 w-10 items-center justify-center rounded text-gray-50">
+                        <img
+                          src="/google.svg"
+                          alt="triangle with all three sides equal"
+                          height="180px"
+                          width="100px"
+                        />
                       </div>
+                      </Link>
                       <div className="ml-4 mb-4">
                         <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">
                           Our Address
                         </h3>
                         <p className="text-gray-600 dark:text-slate-400">
-                        Anand Vihar Dhalwala Colony, Dhalwala, 
+                          Anand Vihar Dhalwala Colony, Dhalwala,
                         </p>
                         <p className="text-gray-600 dark:text-slate-400">
-                        Rishikesh, Dehradun Pin-249137
+                          Rishikesh, Dehradun Pin-249137
                         </p>
                       </div>
                     </li>
+                    
                     <li className="flex">
                       <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
                         <Link href="https://wa.link/042xam">
@@ -74,9 +74,11 @@ export default function Contact() {
                         <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">
                           Contact
                         </h3>
+                        <Link href="tel:123-456-7890">
                         <p className="text-gray-600 dark:text-slate-400">
                           Mobile: +91 7818961757
                         </p>
+                        </Link>
                         {/* <p className="text-gray-600 dark:text-slate-400">Mail: tailnext@gmail.com</p> */}
                       </div>
                     </li>
@@ -105,13 +107,14 @@ export default function Contact() {
                         <p className="text-gray-600 dark:text-slate-400">
                           Monday - Friday: 08:00 - 17:00
                         </p>
-                       
                       </div>
                     </li>
                   </ul>
                 </div>
-                <div className="card h-fit max-w-6xl p-5 md:p-12" id="form">
-                  <h2 className="mb-4 text-2xl font-bold">Ready to Get Started?</h2>
+                <div className="card h-fit max-w-6xl p-10 md:p-12" id="form">
+                  <h2 className="mb-4 text-2xl font-bold">
+                    Ready to Get Started?
+                  </h2>
                   <form id="contactForm">
                     <div className="mb-6">
                       <div className="mx-0 mb-1 sm:mb-4">
